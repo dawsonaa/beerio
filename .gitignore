@@ -1,0 +1,30 @@
+# Ignore the intermediate files, binaries, and saved files
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+/Build/Windows/*.obj
+/Build/Windows/*.pdb
+/Build/Windows/*.idb
+
+# Ignore Visual Studio files
+*.VC.db
+*.VC.opendb
+*.sdf
+*.suo
+*.user
+*.RSDB
+*.VC.VC.opendb
+.vs/
+
+# Ignore project files created by Unreal Engine that are temporary
+*.log
+*.tmp
+*.diff
+*.patch
+*.dat
+*.ddp
+*.dep
+
+# Ignore .DS_Store (Mac only)
+.DS_Store
